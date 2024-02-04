@@ -34,16 +34,15 @@ header {
   font-size: 30px;
   letter-spacing: 4px;
   color: rgb(212, 233, 235);
-  
 }
-.startStop{
-    background-color: rgb(255, 0, 0);
-    margin-right: 15px;
+.startStop {
+  background-color: rgb(255, 0, 0);
+  margin-right: 15px;
 }
-.reset{
-    background-color: rgba(32, 32, 252, 0.733);
+.reset {
+  background-color: rgba(32, 32, 252, 0.733);
 }
-.content button {
+.startStop {
   margin-top: 20px;
   height: 40px;
   width: 90px;
@@ -53,7 +52,25 @@ header {
   color: whitesmoke;
   letter-spacing: 2px;
 }
-.content button:hover {
-  box-shadow: 2px 5px 15px  rgb(209, 14, 14),
-     2px 5px 15px  rgb(12, 12, 12);
+.startStop:hover {
+    box-shadow: 
+      2px 5px 15px rgba(238, 1, 1, 0.877),
+      2px 5px 15px rgb(255, 0, 0);
+}
+
+.reset {
+  margin-top: 20px;
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-style: italic;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+.reset:hover {
+    box-shadow: 
+      2px 5px 15px rgb(1, 37, 238),
+      2px 5px 15px rgb(0, 17, 255);
 }
